@@ -1,0 +1,87 @@
+/* fadeIn Y */
+.fadeIn {
+  opacity : 0;
+  transform: translate(0, 50px);
+  transition : all .7s ease;
+}
+.fadeIn.active {
+  opacity : 1;
+  transform : translate(0, 0);
+}
+.fadeIn:nth-of-type(2) {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 1s ease;
+}
+.fadeIn:nth-of-type(2).active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.fadeIn:nth-of-type(3) {
+  opacity: 0;
+  transform: translate(0, 150px);
+  transition: all 1.3s ease;
+}
+.fadeIn:nth-of-type(3).active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.fadeIn:nth-of-type(4) {
+  opacity: 0;
+  transform: translate(0, 200px);
+  transition: all 1.6s ease;
+}
+.fadeIn:nth-of-type(4).active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/* fadeIn X */
+.fadeIn-r {
+  opacity : 0;
+  transform: translateX(1000px);
+  transition : all 1s ease;
+}
+.fadeIn-r.active {
+  opacity : 1;
+  transform : translateX(0);
+}
+.fadeIn-r:nth-of-type(2) {
+  opacity: 0;
+  transform: translateX(-1000px);
+  transition: all 1s ease;
+}
+.fadeIn-r:nth-of-type(2).active {
+  opacity: 1;
+  transform: translate(0);
+}
+.fadeIn-r:nth-of-type(3) {
+  opacity: 0;
+  transform: translateX(1000px);
+  transition: all 1s ease;
+}
+.fadeIn-r:nth-of-type(3).active {
+  opacity: 1;
+  transform: translate(0);
+}
+.fadeIn-r:nth-of-type(4) {
+  opacity: 0;
+  transform: translateX(-1000px);
+  transition: all 1s ease;
+}
+.fadeIn-r:nth-of-type(4).active {
+  opacity: 1;
+  transform: translate(0);
+}
+.fadeIn-l {
+  opacity : 0;
+  transform: translateX(-700px);
+  transition : all 1s ease;
+}
+.fadeIn-l.active {
+  opacity : 1;
+  transform : translateX(0);
+}
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
